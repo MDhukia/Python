@@ -42,31 +42,31 @@ pip install langchain langchain-openai langchain-community langchain-chroma tavi
 
 #**How It Works**
 
-Routing
+Routing:
 
 If the question is about "Viswanathan" or "chess", it searches the vectorstore. Otherwise, it performs a web search.
 
-Retrieve Documents
+Retrieve Documents:
 
 If vectorstore is selected, it searches internal documents.
 
-Grade Documents
+Grade Documents:
 
 Checks if retrieved documents are relevant to the user question.
 
-Rewrite Question (if needed)
+Rewrite Question (if needed):
 
 If no good documents are found, the system rewrites the question to improve retrieval.
 
-Answer Generation
+Answer Generation:
 
 Uses LangChain's RAG to generate an answer.
 
-Hallucination Check
+Hallucination Check:
 
 Confirms the answer is based on real documents.
 
-Final Decision
+Final Decision:
 
 If everything is correct, outputs the answer. Otherwise, it rewrites the question or retries.
 
