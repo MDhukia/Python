@@ -1,4 +1,4 @@
-#**Intelligent Search using LangChain, ChromaDB, OpenAI, and Tavily APIs**
+#Intelligent Search using LangChain, ChromaDB, OpenAI, and Tavily APIs
 ##**Overview**
 This project demonstrates how to build an intelligent search system that decides between querying a vectorstore (internal database) or performing a web search, based on the user question.
 
