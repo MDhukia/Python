@@ -22,7 +22,7 @@ Hallucination Checking: Ensures that the generated answers are based on real dat
 
 Final Decision: Only outputs answers that are both grounded and solve the original question.
 
-#**Technologies Used**
+**Technologies Used**
 
 Python
 
@@ -36,11 +36,11 @@ Tavily API
 
 LangGraph
 
-#**Installation**
+**Installation**
 
 pip install langchain langchain-openai langchain-community langchain-chroma tavily-python langgraph
 
-#**How It Works**
+**How It Works**
 
 Routing:
 
@@ -70,7 +70,7 @@ Final Decision:
 
 If everything is correct, outputs the answer. Otherwise, it rewrites the question or retries.
 
-#**Example Inputs**
+**Example Inputs**
 
 "Tell me about Viswanathan's achievement in 2003?"
 
