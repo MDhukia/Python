@@ -2,14 +2,12 @@
 
 This project focuses on analyzing online retail customer transactions to **predict order cancellations** using machine learning.
 
----
 
 ## 📊 Overview
 
 We engineered features from transaction data, segmented customers using **RFM + KMeans**, and applied multiple models to predict cancellations.  
 The best-performing models were evaluated over time and interpreted through **feature importance**.
 
----
 
 ## 🔧 Tech Stack
 
@@ -18,7 +16,6 @@ The best-performing models were evaluated over time and interpreted through **fe
 - **Modeling:** Logistic Regression, Random Forest, Gradient Boosting, XGBoost  
 - **Clustering:** KMeans for customer segmentation
 
----
 
 ## ⚙️ Workflow Summary
 
@@ -29,7 +26,6 @@ The best-performing models were evaluated over time and interpreted through **fe
 - Time-based Model Comparison  
 - Feature Importance Analysis  
 
----
 
 ## ✅ Key Insights
 
@@ -37,7 +33,6 @@ The best-performing models were evaluated over time and interpreted through **fe
 - Top predictors: **DaysSincePrevPurchase**, **UnitPrice**, and **cluster features**  
 - High-value customers with high cancellations require **proactive retention strategies**
 
----
 
 ## 💡 Recommendations
 
