@@ -39,3 +39,11 @@ The best-performing models were evaluated over time and interpreted through **fe
 - Monitor customer segments for **high cancellation risk**  
 - Optimize **order times** and **pricing strategies**  
 - Deploy **predictive model** for early cancellation alerts
+
+
+
+## 💡 Recommendations
+
+- Monitor customer segments for **high cancellation risk**  
+- Optimize **order times** and **pricing strategies**  
+- Deploy **predictive model** for early cancellation alerts
